@@ -1,0 +1,54 @@
+* {
+  font-family: Iosevka; 
+}
+window#waybar {
+	background: rgba(17, 17, 17, 0.99); /* currently im making this, waybar got a weird glitch on rounded corners, this might fix */
+  padding: 5px;
+  border-radius: 12px;
+  margin: 3px;
+}
+label.module {
+	background: #111111;
+	color: #dbdbdb;
+  border-radius: 100px;
+  padding: 2px;
+  min-width: 30px;
+  margin: 1px;
+}
+box.module {
+	background: #111111;
+	color: #dbdbdb;
+  border-radius: 100px;
+  padding: 2px;
+  min-width: 30px;
+  margin: 1px;
+}
+#workspaces {
+  background: transparent;
+}
+#workspaces button {
+  transition: all 200ms ease-out; 
+  background: #222222; 
+  color: #dbdbdb;
+  border-radius: 12px;
+  padding: 2px;
+  margin: 3px; 
+  min-width: 25px;
+}
+#workspaces button.active {
+  transition: all 200ms ease-out;
+  min-width: 50px;
+  background: #dbdbdb; 
+  color: #222222;
+  padding: 2px;
+  margin: 3px;
+  border-radius: 100px;
+}
+#window {
+  min-width: 25px;
+  padding: 5px;
+}
+#cpu, #memory, #pulseaudio, #clock, #tray {
+  min-width: 50px;
+  padding: 5px;
+}
